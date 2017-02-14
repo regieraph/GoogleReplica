@@ -190,3 +190,47 @@ a.button:hover {
     letter-spacing: 0.1px;
     font-size: 14px;
 }
+
+@media (max-width: 625px) {
+	.search-box input {
+			width: 90%
+		}
+}
+
+@media (max-width:538px) {
+   .bottom-site-links ul {
+		 width: 100%;
+		 float: none;
+		 margin: 0 auto;
+		 padding: 0;
+		 text-align: center;
+		 display: none;
+
+	 }
+
+@media (max-width:425px) {
+	.profile-img {
+		display: none;
+	}
+}
+
+@media (max-width:412px) {
+	.share-button {
+		display: none;
+	}
+}
+
+@media (max-width:391px) {
+	.share-button {
+		display: none;
+	}
+}
+
+@media (max-width:302px) {
+	 button {
+		 margin: 0 auto;
+		 width: 80%;
+		 font-size: 5px;
+		 text-align: center;
+	 }
+}
